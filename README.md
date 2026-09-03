@@ -13,7 +13,7 @@ The program is simple to use, just start it with any development tool having  `P
 # BEFORE USING IT! Read!
 This tool is still a work in progress and it is very likely that it will suddenly stop working or not work at all. So be very careful.
 
-## How to use the TDU Multi Unpaker 
+### How to use the TDU Multi Unpaker 
 As `TDU Universal Audio Editor` start any development tool and run it. First you need to select the folder where you can download MiniBnkManager.exe [here](https://github.com/djey47/tdumt2),after select the folder where the bnk files are located (you can select the EURO folder directly if you want to unpack all the bnk) the program will read all the .bnk files even in the subfolders, finally select the folder where all the files must be extracted, I recommend to select the default folder of MiniBnkManager is usually the folder named work.
 
 ## Speeds

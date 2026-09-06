@@ -1,0 +1,8 @@
+
+/TestDriveUnlimitedTools/.vs
+TestDriveUnlimitedTools/AudioEditor/ffmpeg
+TestDriveUnlimitedTools/AudioEditor/TDUAE.py
+TestDriveUnlimitedTools/AudioEditor/TDUAE.log
+TestDriveUnlimitedTools/BnkExtractor/TDUBNKEXT.py
+TestDriveUnlimitedTools/BnkExtractor/tdu2_bnk_config.json
+TestDriveUnlimitedTools/BnkExtractor/tdu2_bnk_log.txt

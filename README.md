@@ -1,5 +1,5 @@
 # Test-Drive-Unlimited-Tools
-A set of tools built with Python that work on both TDU1 and TDU2 using external libraries like [FFmeg](https://ffmpeg.org/download.html) and other programs like [TDUMT2](https://github.com/djey47/tdumt2) by DJey47.
+A set of tools built with Python that work on both TDU1 and TDU2 using external libraries like [FFmeg](https://ffmpeg.org/download.html) and other programs like [TDUMT2](https://github.com/djey47/tdumt2) by [DJey47](https://github.com/djey47).
 
 ## TDU Universal Audio Editor
  `TDU Universal Audio Editor` it's a program for importing your audio files and converting them to a specific format that Test Drive can recognize. It was originally developed for TDU1, which has a problem with a lot of software having trouble finding the right compatibility of a audio file. The [FFmeg](https://ffmpeg.org/download.html) library comes already preinstalled so no need to download anything external.

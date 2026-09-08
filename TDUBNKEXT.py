@@ -128,7 +128,15 @@ SPEEDS = {
         "load": 0.01,
         "unpack": 0.01,
         "ok": 0.01
-    }
+    },
+    "Test": {
+        "mouse": 0.00,
+        "click": 0.00,
+        "paste": 0.00,
+        "load": 0.00,
+        "unpack": 0.00,
+        "ok": 0.00
+        "re-test": 0.00
 }
 
 

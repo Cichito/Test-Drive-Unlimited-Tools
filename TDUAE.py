@@ -9,6 +9,24 @@ from tkinter import filedialog, messagebox, ttk
 
 APP_NAME = "Audio Tool 3.0"
 
+def get_base_dir():
+    if getattr(sys, "frozen", False):
+        return os.path.dirname(sys.executable)
+
+    return os.path.dirname(os.path.abspath(__file__))
+
+
+BASE_DIR = get_base_dir()
+FFMPEG_DIR = os.path.join(BASE_DIR, "ffmpeg")
+
+if os.name == "nt":
+    FFMPEG = os.path.join(FFMPEG_DIR, "ffmpeg.exe")
+    FFPROBE = os.path.join(FFMPEG_DIR, "ffprobe.exe")
+else:
+    FFMPEG = os.path.join(FFMPEG_DIR, "ffmpeg")
+    FFPROBE = os.path.join(FFMPEG_DIR, "ffprobe")
+
+
 # ============================================================
 # CONSTANTS
 # ============================================================

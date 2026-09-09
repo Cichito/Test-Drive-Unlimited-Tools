@@ -9,6 +9,10 @@ from tkinter import filedialog, messagebox, ttk
 
 APP_NAME = "Audio Tool 3.0"
 
+# ============================================================
+# PATHS
+# ============================================================
+
 def get_base_dir():
     if getattr(sys, "frozen", False):
         return os.path.dirname(sys.executable)

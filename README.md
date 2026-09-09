@@ -11,7 +11,7 @@ The program is simple to use, just start it with any development tool having  `P
  `TDU Multi Unpaker` use the program made by [DJey47](https://github.com/djey47) it implement a script that automatically reads all the  `BNK` files in the `EURO` folder and convert them all to a specific folder of your choice. 
 
 ### How to use the TDU Multi Unpaker 
-As `TDU Universal Audio Editor` start any development tool and run it. First you need to open `MiniBnkManager` you can download it [here](https://github.com/djey47/tdumt2),after select the folder where the bnk files are located (you can select the `EURO` folder directly if you want to unpack all the bnk) the program will read all the `.bnk` files even in the subfolders, finally select the folder where all the files must be extracted, I recommend to select the default folder of `MiniBnkManager` is usually the folder named `work` but to avoid hitches you can also select a folder of your choice that the program will write automatically.
+As `TDU Universal Audio Editor` start any development tool and run it. First you need to open `MiniBnkManager` you can download it [here](https://github.com/djey47/tdumt2) after select the folder where the bnk files are located (you can select the `EURO` folder directly if you want to unpack all the bnk) the program will read all the `.bnk` files even in the subfolders, finally select the folder where all the files must be extracted, I recommend to select the default folder of `MiniBnkManager` is usually the folder named `work` but to avoid hitches you can also select a folder of your choice that the program will write automatically.
 
 ### Speeds
 -  `Safe` slow asf but as the name suggest it was made to prefent errors

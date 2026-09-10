@@ -42,7 +42,7 @@ from datetime import datetime
 # - Safe / Fast / Turbo speed
 # - Log file
 # - Verification report
-#
+# - Additional Debug Features
 # ============================================================
 
 

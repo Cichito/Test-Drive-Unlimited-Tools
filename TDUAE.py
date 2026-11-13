@@ -7,6 +7,7 @@ import threading
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
+# get namr dir get name file get..
 
 APP_NAME = "Audio Tool 3.0"
 

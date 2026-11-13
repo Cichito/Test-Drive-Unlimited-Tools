@@ -8,7 +8,7 @@ import threading
 import time
 from datetime import datetime
 
-
+## btconf
 
 VK_F5 = 0x74
 VK_F6 = 0x75

@@ -1,3 +1,4 @@
+# preview only
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import ctypes
@@ -8,75 +9,6 @@ import time
 from datetime import datetime
 
 
-# ============================================================
-# TDU2 BNK AUTO UNPACKER
-# ============================================================
-#
-# IMPORTANT:
-#
-# Mini BNK Manager is NOT searched for.
-# Mini BNK Manager is NOT started by this application.
-#
-# The user must open Mini BNK Manager manually before starting
-# an extraction.
-#
-# The application controls Mini BNK Manager using the calibrated
-# mouse positions.
-#
-# Features:
-#
-# - Manual BNK folder selection
-# - Manual output folder selection
-# - Automatic output path entry
-# - Original folder structure preservation
-# - Individual folder for every BNK
-# - Five-position mouse calibration
-# - F5 Start
-# - F6 Stop
-# - F7 Test Positions
-# - F8 Verify Extraction
-# - F9 Configure Positions
-# - F12 Save Calibration Position
-# - Missing-file retry
-# - Light / Dark theme
-# - Safe / Fast / Turbo speed
-# - Log file
-# - Verification report
-# - Additional Debug Features
-# ============================================================
-
-
-# ============================================================
-# BASE CONFIGURATION
-# ============================================================
-
-BASE_DIR = os.path.dirname(
-    os.path.abspath(__file__)
-)
-
-CONFIG_FILE = os.path.join(
-    BASE_DIR,
-    "tdu2_bnk_config.json"
-)
-
-LOG_FILE = os.path.join(
-    BASE_DIR,
-    "tdu2_bnk_log.txt"
-)
-
-VERIFICATION_FILE = os.path.join(
-    BASE_DIR,
-    "tdu2_bnk_verification.txt"
-)
-
-PRESERVE_FOLDER_STRUCTURE = True
-
-CREATE_BNK_SUBFOLDER = True
-
-
-# ============================================================
-# WINDOWS VIRTUAL KEYS
-# ============================================================
 
 VK_F5 = 0x74
 VK_F6 = 0x75
@@ -89,18 +21,9 @@ VK_CONTROL = 0x11
 VK_A = 0x41
 VK_V = 0x56
 
-
-# ============================================================
-# WINDOWS MOUSE EVENTS
-# ============================================================
-
 MOUSEEVENTF_LEFTDOWN = 0x0002
 MOUSEEVENTF_LEFTUP = 0x0004
 
-
-# ============================================================
-# SPEED PROFILES
-# ============================================================
 
 SPEEDS = {
     "Safe": {

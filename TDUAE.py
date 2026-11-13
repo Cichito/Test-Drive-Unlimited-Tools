@@ -1,3 +1,4 @@
+# for review only
 import os
 import re
 import sys
@@ -9,9 +10,6 @@ from tkinter import filedialog, messagebox, ttk
 
 APP_NAME = "Audio Tool 3.0"
 
-# ============================================================
-# PATHS
-# ============================================================
 
 def get_base_dir():
     if getattr(sys, "frozen", False):
@@ -30,10 +28,6 @@ else:
     FFMPEG = os.path.join(FFMPEG_DIR, "ffmpeg")
     FFPROBE = os.path.join(FFMPEG_DIR, "ffprobe")
 
-
-# ============================================================
-# CONSTANTS
-# ============================================================
 
 ADPCM_SAMPLE_RATES = [
     8000,
@@ -69,10 +63,6 @@ WAV_SAMPLE_RATES = [
     96000,
 ]
 
-
-# ============================================================
-# UTILITY
-# ============================================================
 
 def parse_duration(value):
     """
@@ -222,9 +212,6 @@ def closest_adpcm_sample_rate(target_kbps, channels):
     return best_rate
 
 
-# ============================================================
-# APPLICATION
-# ============================================================
 
 class AudioTool:
 
@@ -236,9 +223,6 @@ class AudioTool:
         self.root.geometry("1050x820")
         self.root.minsize(900, 700)
 
-        # ----------------------------------------------------
-        # VARIABLES
-        # ----------------------------------------------------
 
         self.input_file = tk.StringVar()
         self.output_file = tk.StringVar()
@@ -289,15 +273,8 @@ class AudioTool:
         self.last_probe_info = None
         self.is_exporting = False
 
-        # ----------------------------------------------------
-        # COLORS
-        # ----------------------------------------------------
 
         self.colors = {}
-
-        # ----------------------------------------------------
-        # STYLE
-        # ----------------------------------------------------
 
         self.style = ttk.Style()
 
@@ -317,10 +294,6 @@ class AudioTool:
             "WM_DELETE_WINDOW",
             self.on_close
         )
-
-    # ========================================================
-    # THEME
-    # ========================================================
 
     def apply_theme(self, theme):
 
